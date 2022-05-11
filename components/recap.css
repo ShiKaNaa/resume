@@ -1,9 +1,19 @@
 .recap {
-  padding: 75px 16px;
+  padding: 25% 0 0 2%;
   line-height: 16px;
 }
+
+.recap .list-inline li {
+  font-size: 24px;
+}
+
 
 .bio {
   line-height: 24px;
   padding: 75px 16px;
+  animation: 3s linear forwards;
+}
+
+.bio.hidden {
+  display: none;
 }

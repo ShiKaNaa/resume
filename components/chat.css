@@ -1,0 +1,9 @@
+#chatbox {
+  margin: 5% 2%;
+  padding: 4px;
+  width: 350px;
+}
+
+#chatbox::placeholder{
+  font-size: 1.5em;
+}

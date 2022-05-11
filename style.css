@@ -1,16 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
 @import url("components/profile.css");
 @import url("components/footer.css");
 @import url("components/recap.css");
+@import url("components/chat.css");
+
+
 
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Macondo', cursive;
+}
+
+html {
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 600px;
 }
 
 body {
-  background: linear-gradient(90deg, rgba(91,91,91,0.19681375968356096) 0%, rgba(255,253,253,0.02874653279280459) 100%, rgba(159,159,159,1) 100%), url("./images/_MG_3160.jpg") no-repeat center center fixed;
+  background: linear-gradient(90deg, rgba(91, 91, 91, 0.11) 0%, rgba(255,253,253,0.02874653279280459) 100%, rgba(159,159,159,1) 100%), url("./images/_MG_3160.jpg") no-repeat center center fixed;
   background-size: cover;
-  color: white;
+  color: rgb(238, 177, 252);
 }
 
 a {
@@ -28,7 +41,7 @@ h1 {
 
 .container {
   position: relative;
-  background: linear-gradient(90deg, rgba(91,91,91,0.19681375968356096) 0%, rgba(255,253,253,0.02874653279280459) 100%, rgba(159,159,159,1) 100%), url("./images/_MG_3145.jpg") no-repeat center center;
+  background: linear-gradient(90deg, rgba(91, 91, 91, 0.644) 0%, rgba(255,253,253,0.02874653279280459) 100%, rgba(159,159,159,1) 100%), url("./images/_MG_3145.jpg") no-repeat center center;
   background-size: cover;
   min-width: 60%;
   max-width: 75%;
