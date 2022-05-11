@@ -1,4 +1,6 @@
 @import url("components/profile.css");
+@import url("components/footer.css");
+@import url("components/recap.css");
 
 * {
   margin: 0;
@@ -6,26 +8,9 @@
 }
 
 body {
-  background: linear-gradient(90deg, rgba(91,91,91,0.19681375968356096) 0%, rgba(255,253,253,0.02874653279280459) 100%, rgba(159,159,159,1) 100%), url(./images/sapin_maison.avif) no-repeat center center fixed;
+  background: linear-gradient(90deg, rgba(91,91,91,0.19681375968356096) 0%, rgba(255,253,253,0.02874653279280459) 100%, rgba(159,159,159,1) 100%), url("./images/_MG_3160.jpg") no-repeat center center fixed;
   background-size: cover;
   color: white;
-}
-
-.container {
-  position: relative;
-  background: linear-gradient(90deg, rgba(91,91,91,0.19681375968356096) 0%, rgba(255,253,253,0.02874653279280459) 100%, rgba(159,159,159,1) 100%), url("./images/books.avif") no-repeat center center;
-  min-width: 60%;
-  max-width: 75%;
-  min-height: 600px;
-  margin: 10% 15%;
-}
-
-.container .recap {
-  padding-top: 75px;
-}
-
-.list-inline {
-  list-style-type: none;
 }
 
 a {
@@ -34,4 +19,23 @@ a {
   text-decoration: none;
   margin: 16px;
   position: center;
+}
+
+h1 {
+  text-align: center;
+  padding: 24px 0 75px 0;
+}
+
+.container {
+  position: relative;
+  background: linear-gradient(90deg, rgba(91,91,91,0.19681375968356096) 0%, rgba(255,253,253,0.02874653279280459) 100%, rgba(159,159,159,1) 100%), url("./images/_MG_3145.jpg") no-repeat center center;
+  background-size: cover;
+  min-width: 60%;
+  max-width: 75%;
+  min-height: 600px;
+  margin: 10% 15%;
+}
+
+.list-inline {
+  list-style-type: none;
 }
